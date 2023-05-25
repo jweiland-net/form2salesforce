@@ -30,5 +30,4 @@ Download and install `form2salesforce` with the extension manager module.
 ### 2.2 Minimal setup
 
 1) Include the static TypoScript of the extension.
-2) Set TypoScript constants.
-3) Configure EXT:form as described in our documentation.
+2) Configure EXT:form as described in our documentation.
