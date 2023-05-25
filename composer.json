@@ -1,7 +1,7 @@
 {
 	"name": "jweiland/form2salesforce",
 	"type": "typo3-cms-extension",
-	"description": "EXT:form to Salesforce integration",
+	"description": "Send data of form to salesforce API endpoint",
 	"license": "GPL-2.0-or-later",
 	"keywords": [
 		"Form",
