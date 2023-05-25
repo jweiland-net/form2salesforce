@@ -1,0 +1,8 @@
+TYPO3:
+  CMS:
+    Form:
+      prototypes:
+        standard:
+          finishersDefinition:
+            SalesforceFinisher:
+              implementationClassName: 'JWeiland\Form2salesforce\Domain\Finisher\SalesforceFinisher'
