@@ -1,0 +1,28 @@
+plugin.tx_powermail.settings.setup {
+  finishers {
+    100 {
+      class = JWeiland\Form2salesforce\Finisher\SalesforceFinisher
+
+      config {
+        # Activate sendPost (0/1)
+        _enable = 1
+
+        # Target URL for POST values (like http://www.target.com/target.php)
+        targetUrl = {$plugin.tx_powermail.settings.setup.finishers.100.config.targetUrl}
+
+        # Salesforce specific options
+        orgid = {$plugin.tx_powermail.settings.setup.finishers.100.config.orgid}
+        recordType = {$plugin.tx_powermail.settings.setup.finishers.100.config.recordType}
+        type = {$plugin.tx_powermail.settings.setup.finishers.100.config.type}
+        origin = {$plugin.tx_powermail.settings.setup.finishers.100.config.origin}
+
+        # Basic Auth Protection - leave empty if Target is not protected
+        username = {$plugin.tx_powermail.settings.setup.finishers.100.config.username}
+        password = {$plugin.tx_powermail.settings.setup.finishers.100.config.password}
+
+        # activate debug - log all configuration from curl settings to devlog (use extension devlog to view this values)
+        debug = 0
+      }
+    }
+  }
+}
