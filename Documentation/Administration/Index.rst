@@ -1,14 +1,14 @@
 ..  include:: /Includes.rst.txt
 
 
-..  _configuration:
+..  _administrator:
 
 =============
-Configuration
+Administrator
 =============
 
 ..  toctree::
     :maxdepth: 2
 
-    TypoScript/Index
-    Form/Index
+    Upgrade/Index
+    ChangeLog/Index

@@ -3,9 +3,9 @@
 
 .. _start:
 
-======================
-Powermail 2 Salesforce
-======================
+=================
+Form 2 Salesforce
+=================
 
 :Extension key:
     form2salesforce
