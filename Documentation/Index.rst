@@ -45,7 +45,7 @@ Add salesforce API support to EXT:form.
     Introduction/Index
     Installation/Index
     Configuration/Index
-    UsersManual/Index
+    Administration/Index
     FAQ/Index
 
 ..  Meta Menu
