@@ -1,0 +1,24 @@
+plugin.tx_powermail.settings.setup {
+  finishers {
+    100 {
+      config {
+        # cat=plugin.tx_form2salesforce; type=string; label=Target URL
+        targetUrl =
+
+        # cat=plugin.tx_form2salesforce; type=string; label=Orgid
+        orgid =
+        # cat=plugin.tx_form2salesforce; type=string; label=Record type
+        recordType =
+        # cat=plugin.tx_form2salesforce; type=string; label=Type
+        type =
+        # cat=plugin.tx_form2salesforce; type=string; label=Origin
+        origin =
+
+        # cat=plugin.tx_form2salesforce; type=string; label=Username
+        username =
+        # cat=plugin.tx_form2salesforce; type=string; label=Password
+        password =
+      }
+    }
+  }
+}
